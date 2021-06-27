@@ -12,6 +12,7 @@ function CandidateDashboard() {
         setUserData(data);
     }
 
+    
     useEffect(() => {
         tokenCheck();
         (async () => {

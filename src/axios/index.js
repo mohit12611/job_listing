@@ -37,16 +37,3 @@ export function checkToken() {
 }
 
 
-
-// router.get('/', getJobs);
-
-
-// router.patch('/:id/:job_id', applyJob);
-
-// router.post('/createjob', createJob);
-// router.post('/login', loginUser);
-// router.post('/register', register);
-
-
-// router.patch('/:job_id', updateJob);
-// router.delete('/:job_id', deleteJob)
