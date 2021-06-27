@@ -1,0 +1,57 @@
+.signup__form {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center !important;
+    text-align: center;
+    font-size: 25px;
+    height: auto;
+    width: 50%;
+    left: 50%;
+    top: 50%;
+    color: rgb(59, 59, 59);
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    transform: translate(-50%, -50%);
+  }
+  
+  .form__button > button {
+      font-size: 20px;
+      font-weight: 600;
+      width:15%;
+      background: white;
+      margin-bottom: 20px;
+  }
+  
+  .heading {
+      background: rgba(0,0,0,0.6);
+      font-weight: 600;
+      color: white;
+      font-size: 30px;
+  }
+  
+  .password__div, .email__div, .role__div  {
+      display:flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  
+  }
+  
+  .password , .email, .role {
+      width: 70%;
+  }
+  
+  .password > input, .email > input {
+      font-size: large;
+      font-weight: 600;
+  }
+
+  .role > select {
+      font-size: 20px;
+      font-weight: 600;
+  }
+
+  .role > select > option{
+    font-size: 15px;
+}
